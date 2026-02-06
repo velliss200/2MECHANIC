@@ -25,7 +25,7 @@ header {
   border-bottom: 2px solid #d9d9d936;
   background-color: #151515;
   z-index: 1000;
-  height: 100px;
+  height: 145px;
 }
 
 .headerIcon,
@@ -155,12 +155,12 @@ option {
 }
 
 .InfoCard {
-  max-width: 800px;
+  max-width: 1000px;
   padding-right: 40px;
   margin-left: 250px;
 }
 .InfoCard2 {
-  max-width: 800px;
+  max-width: 1000px;
   margin-left: auto;
   padding-right: 50px;
   margin-right: 250px;
@@ -176,7 +176,7 @@ option {
   font-weight: 750;
   padding: 0 20px;
   font-family: "Intro", Arial, sans-serif;
-  width: 800px;
+
   padding-left: 45px;
   background: linear-gradient(90deg, #808080, #ffffff);
   -webkit-background-clip: text;
@@ -250,6 +250,9 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+
+  min-width: 30px; /* важно */
+  object-fit: contain;
 }
 
 .container1 {
@@ -262,11 +265,15 @@ footer {
   gap: 120px;
 }
 .ContactsContainer {
-  margin-top: 150px;
-  margin-bottom: 150px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 100px;
+  width: 100%;
+  background: linear-gradient(30deg, #1d0707, #000000);
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 @media (max-width: 768px) {
@@ -290,10 +297,13 @@ footer {
   }
 
   footer {
-    height: 450px;
+    height: 500px;
   }
   .footerTextContainer {
     flex-direction: column;
+  }
+  .headerIcon {
+    padding-top: 10px;
   }
 }
 
