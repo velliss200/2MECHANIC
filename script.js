@@ -71,7 +71,7 @@ if (AboutUsBtnBg)
 const ServicesBtnBg = document.getElementById("ServicesBtnBg");
 if (ServicesBtnBg)
   ServicesBtnBg.addEventListener("click", () => {
-    window.location.href = "servicesBg.html";
+    window.location.href = "ServicesBg.html";
   });
 
 const ContactsBtnBg = document.getElementById("ContactsBtnBg");
@@ -85,3 +85,4 @@ if (LearnMoreBtnBg)
   LearnMoreBtnBg.addEventListener("click", () => {
     window.location.href = "servicesBg.html";
   });
+
