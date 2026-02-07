@@ -71,13 +71,13 @@ if (AboutUsBtnBg)
 const ServicesBtnBg = document.getElementById("ServicesBtnBg");
 if (ServicesBtnBg)
   ServicesBtnBg.addEventListener("click", () => {
-    window.location.href = "ServicesBg.html";
+    window.location.href = "servicesBg.html";
   });
 
 const ContactsBtnBg = document.getElementById("ContactsBtnBg");
 if (ContactsBtnBg)
   ContactsBtnBg.addEventListener("click", () => {
-    window.location.href = "contactsBg.html";
+    window.location.href = "ContactsBg.html";
   });
 
 const LearnMoreBtnBg = document.getElementById("LearnMoreBtnBg");
@@ -85,4 +85,5 @@ if (LearnMoreBtnBg)
   LearnMoreBtnBg.addEventListener("click", () => {
     window.location.href = "servicesBg.html";
   });
+
 
