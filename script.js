@@ -53,7 +53,7 @@ if (ServicesBtnRu)
 const ContactsBtnRu = document.getElementById("ContactsBtnRu");
 if (ContactsBtnRu)
   ContactsBtnRu.addEventListener("click", () => {
-    window.location.href = "contactsRu.html";
+    window.location.href = "ContactsRu.html";
   });
 
 const LearnMoreBtnRu = document.getElementById("LearnMoreBtnRu");
@@ -85,5 +85,6 @@ if (LearnMoreBtnBg)
   LearnMoreBtnBg.addEventListener("click", () => {
     window.location.href = "servicesBg.html";
   });
+
 
 
