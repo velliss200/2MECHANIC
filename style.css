@@ -96,7 +96,7 @@ option {
   height: 80vh;
   width: 100%;
   margin-top: 70px;
-  background-image: url(.content/bgImg.jpg);
+  background-image: url(./bgImg.jpg);
   background-size: cover;
   background-position: center;
 
@@ -324,4 +324,5 @@ footer {
     gap: 0.5%;
   }
 }
+
 
